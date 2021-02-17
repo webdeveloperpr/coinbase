@@ -1,0 +1,24 @@
+{
+  "name": "coinbase",
+  "version": "1.0.0",
+  "description": "conbase programatic buy/sell actions",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "coinbase-pro": "^0.9.0",
+    "coinbase-pro-node": "^2.18.0",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0"
+  },
+  "scripts": {
+    "test:watch": "NODE_ENV=test mocha -w ./tests -r chai/register-expect"
+  },
+  "author": "",
+  "license": "ISC"
+}

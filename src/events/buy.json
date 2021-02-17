@@ -1,0 +1,6 @@
+{
+  "action": "buy",
+  "ticket": "{{ticker}}",
+  "exchange": "{{exchange}}",
+  "time": "{{time}}"
+}

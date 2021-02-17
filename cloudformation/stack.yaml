@@ -1,0 +1,3 @@
+// create a lambda fn
+// needs permissions to secrets manager
+// gets the credentials
