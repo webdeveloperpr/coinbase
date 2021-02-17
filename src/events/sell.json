@@ -1,6 +1,6 @@
 {
+  "type": "market",
   "action": "sell",
-  "ticker": "{{ticker}}",
-  "exchange": "{{exchange}}",
-  "time": "{{time}}"
+  "product_id": "BTC-USD",
+  "currency": "BTC"
 }

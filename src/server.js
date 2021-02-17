@@ -8,7 +8,6 @@ const buyEvent = {
   "type": "market",
   "action": "buy",
   "product_id": "",
-  "funds": "100"
 };
 
 

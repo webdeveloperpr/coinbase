@@ -22,7 +22,7 @@ const actions = (api) => {
           .then(x => {
             console.log(x);
           }).catch(err => {
-            console.log(err);
+            console.log(err.data.message);
           });
       })
   };
